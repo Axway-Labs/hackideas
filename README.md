@@ -21,7 +21,10 @@ Quick filter contains four items – metadata (name, version), field definitions
 5. Introduce OpenTracing to the API Gateway to provide end to end visibility in production
 6. Ability to configure their relative paths using a yaml file (they actually have only the / relative path and the yaml file is loaded at run time and cached and contains all the relative paths needed). 
 7.  A way to generate .env files from yaml or json configuration files.  - scenario where you have multiple environmetents.   (https://github.com/Axway-API-Management-Plus/apigw-maven-plugin)
-8. Add suggestions here
+8. Enhance Swagger Promote
+- Import an API and client certificates for both front-end and back-end APIs
+- Build REST wrapper around Maven in order to be able to integrate with other services
+- Create an extension for Visual Studio Code that calls the REST wrapper to automoatically publish to the gateway.
 9. Add suggestions here
 10. Add suggestions here
 11. Add suggestions here
